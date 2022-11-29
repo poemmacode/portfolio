@@ -15,12 +15,19 @@
 }
 
 .image {
-  width: 80px;
-  height: 80px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
 }
-
+.cover{
+  position: relative;
+  object-fit: cover;
+}
 .info {
-  padding: 10px;
+  padding: 70px 10px;
   display: grid;
   place-items: center;
 }

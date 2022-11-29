@@ -11,7 +11,9 @@
 body {
   background-color: #191863;
 }
-
+.link{
+  color:white;
+}
 .title {
   font-family: "Montserrat", sans-serif;
   margin: 40px 0 20px 0;
