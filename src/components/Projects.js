@@ -7,7 +7,7 @@ export const Projects = () => {
     <section className={styles.wrapper}>
       {projects.map((project, index) => {
         return (
-          <a href={project.url} target="_blank">
+          <a href={project.url} target="_blank" key={index}>
             <div className={styles.card} key={index}>
               <div className={styles.cover}>
                 <img className={styles.image} src={project.image} alt="cover" />
