@@ -2,6 +2,13 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  background: #191863;
+  padding: 20px 10rem;
+  top: 0;
+  z-index: 10;
 }
 
 .brand {
@@ -66,5 +73,9 @@
 
   .item {
     width: 100vw;
+  }
+  .wrapper{
+    padding: 15px;
+
   }
 }
