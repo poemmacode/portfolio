@@ -10,6 +10,7 @@ export const About = () => {
           <div className={styles.card} key={index}>
             <div className={styles.info}>
               <h1 className={styles.title}>{item.title}</h1>
+              <h2 className={styles.title}>{item.company}</h2>
               <p className={styles.description}>{item.duration}</p>
             </div>
             <div className={styles.info}>
