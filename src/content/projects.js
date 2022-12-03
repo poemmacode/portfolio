@@ -6,6 +6,12 @@ export const projects = [
     url: 'https://villadelpalmarloreto.myuvci.com/'
   },
   {
+    title: "Intensa Store",
+    description: "Woocommerce store for girl motivational phrases clothes",
+    image: "/assets/projects/tienda-intensa.jpg",
+    url: 'https://tienda.intensa.mx/'
+  },
+  {
     title: "Restaurant Menu QR App",
     description: "Ruby on Rails App for generation of menus from a Google Spredsheet Document",
     image: "/assets/projects/menulaicer.png",
