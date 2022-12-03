@@ -7,20 +7,23 @@
 
 .card {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   border-radius: 10px;
   background-color: white;
 }
 
 .info {
-  padding: 10px;
+  padding: 10px 35px;
   display: grid;
-  place-items: center;
+  place-items: self-end;
 }
 
 .icon {
   height: 100px;
   height: 100px;
+  background: #191863;
+  padding: 17px;
+  border-radius: 50%;
 }
 
 .title {
