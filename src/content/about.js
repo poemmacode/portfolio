@@ -13,14 +13,14 @@ export const about = [
   },
   {
     title: "BrightCoders Academy",
-    duration: "Dec 20221",
-    company: "",
+    duration: "Dec 2021",
+    company: "{ Ruby on Rails Web Developer }",
     icon: "/assets/about/school.png",
   },
   {
     title: "Instituto Tecnologico de Tepic",
     duration: "Aug 2017",
-    company: "",
+    company: "{ Computer Science Engineer }",
     icon: "/assets/about/school.png",
   },
 ];
