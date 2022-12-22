@@ -1,3 +1,4 @@
+
 export const about = [
   {
     title: "Ruby on Rails Web Developer",

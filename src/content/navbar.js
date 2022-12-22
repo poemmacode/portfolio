@@ -9,7 +9,7 @@ export const navbar = [
     title: "Projects",
   },
   {
-    title: "Activities",
+    title: "Resume",
   },
   {
     title: "Contact",

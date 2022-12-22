@@ -31,7 +31,10 @@
   color: #2c2851;
   font-family: "Montserrat", sans-serif;
 }
-
+.subtitle {
+  color: #3e3d45;
+  font-family: "Montserrat", sans-serif;
+}
 .description {
   color: #85819f;
   margin-bottom: 5px;
