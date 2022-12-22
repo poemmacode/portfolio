@@ -3,13 +3,13 @@ import { HeroArea } from "./components/HeroArea";
 import { About } from "./components/About";
 import { Services } from "./components/Services";
 import { Projects } from "./components/Projects";
-import { Activities } from "./components/Activities";
 import { Contacts } from "./components/Contacts";
 import { Footer } from "./components/Footer";
 
 import "./index.css";
 
 export default function App() {
+
   return (
     <div className="App">
       <Header />
@@ -32,7 +32,7 @@ export default function App() {
       <h1 id="resume" className="title">
         My resume
       </h1>
-      <p className="description">You can find my full resume <a className="link" href="https://resume.io/r/y92352s0L" target="_blank"><strong><u>here</u></strong></a></p>
+      <p className="description">You can find my full resume <a className="link" href="https://resume.io/r/y92352s0L" target="_blank" rel="noreferrer"><strong><u>here</u></strong></a></p>
 
       <h1 id="contact" className="title">
         Let's connect
@@ -40,6 +40,7 @@ export default function App() {
       <p className="description">I'm available to work!</p>
       <Contacts />
       <Footer />
+
     </div>
   );
 }
