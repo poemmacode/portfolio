@@ -29,7 +29,7 @@ export default function App() {
       </h1>
       <p className="description">Highlights of my best work</p>
       <Projects />
-      <h1 id="activities" className="title">
+      <h1 id="resume" className="title">
         My resume
       </h1>
       <p className="description">You can find my full resume <a className="link" href="https://resume.io/r/y92352s0L" target="_blank"><strong><u>here</u></strong></a></p>
