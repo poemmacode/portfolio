@@ -2,7 +2,7 @@ import { Header } from "./components/Header";
 import { HeroArea } from "./components/HeroArea";
 import { About } from "./components/About";
 import { Services } from "./components/Services";
-import { Projects } from "./components/Projects";
+import { ProjectList } from "./components/Project";
 import { Contacts } from "./components/Contacts";
 import { Footer } from "./components/Footer";
 
@@ -28,7 +28,7 @@ export default function App() {
         Projects
       </h1>
       <p className="description">Highlights of my best work</p>
-      <Projects />
+      <ProjectList />
       <h1 id="resume" className="title">
         My resume
       </h1>
