@@ -6,7 +6,7 @@ export const HeroArea = () => {
       <img className={styles.profile} src="/assets/profile.png" alt="profile" />
       <h1 className="title">Hi, I'm Jose</h1>
       <p className="description">
-        A web developer looking for a new role in tech
+        A Ruby Dev always looking for a new challenge, a new adventure
       </p>
       <div className={styles.buttonBox}>
         <button
