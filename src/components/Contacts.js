@@ -5,7 +5,7 @@ export const Contacts = () => {
     <form
       className={styles.wrapper}
       target="_blank"
-      action="https://formsubmit.co/joseestrada@engineer"
+      action="https://formsubmit.co/contact@joseestrada.engineer"
       method="POST"
     >
       <div className={styles.inputs}>
