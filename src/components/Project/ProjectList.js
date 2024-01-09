@@ -48,7 +48,7 @@ const ProjectList = () => {
 
  return (
   <section className={styles.wrapper}>
-      {projects.length === 0 ? <>Cargando...</> : (projects.map(project => <ProjectItem key={project.name} project={project}/>))}
+      {projects.length === 0 ? <>Cargando...</> : (projects.map((project,index) => <ProjectItem key={index} project={project}/>))}
   </section>
   )
 };

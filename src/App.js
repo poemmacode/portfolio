@@ -1,3 +1,5 @@
+import { Player } from '@lottiefiles/react-lottie-player';
+
 import { Header } from "./components/Header";
 import { HeroArea } from "./components/HeroArea";
 import { About } from "./components/About";
@@ -12,6 +14,12 @@ export default function App() {
 
   return (
     <div className="App">
+       <Player
+        src='https://lottie.host/a0e48f1d-17b9-4157-94eb-cd7aeec75971/7hIoQIlJlX.json'
+        className="player"
+        loop
+        autoplay
+      />
       <ScrollToTopButton />
       <Header />
       <HeroArea />

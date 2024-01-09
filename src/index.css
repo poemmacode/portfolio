@@ -7,7 +7,14 @@
   text-decoration: none;
   font-family: "Varela Round", sans-serif;
 }
-
+.lf-player-container{
+  height: 100vh;
+  position: fixed;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
 body {
   background-color: #191863;
 }
