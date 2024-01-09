@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className={styles.wrapper}>
       <h1 className={styles.title}>Jose Estrada</h1>
-      <p>+52 322 309 4304 | j.estrada.developer@gmail.com</p>
+      <p>+52 322 309 4304 | <a href="mailto:contact@joseestrada.engineer">contact@joseestrada.engineer</a></p>
       <div className={styles.socials}>
         <a href="https://twitter.com/ItriMakena">
           <img

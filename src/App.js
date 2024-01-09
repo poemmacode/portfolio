@@ -44,9 +44,9 @@ export default function App() {
       <p className="description">You can find my full resume <a className="link" href="https://resume.io/r/y92352s0L" target="_blank" rel="noreferrer"><strong><u>here</u></strong></a></p>
 
       <h1 id="contact" className="title">
-        Let's connect
+        Inspire Innovation: Let's Connect!
       </h1>
-      <p className="description">I'm available to work!</p>
+      <p className="description">I'm Here to Help.  Together, we can bring your vision to life!</p>
       <Contacts />
       <Footer />
 

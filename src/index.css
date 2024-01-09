@@ -58,7 +58,7 @@ body {
   position: relative;
     display: block;
     width: calc(135% + 1.3px);
-    height: 168px;
+    height: 180px;
 }
 .divider .shape-fill {
   fill: #5f27cd;
