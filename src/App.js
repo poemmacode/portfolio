@@ -5,13 +5,14 @@ import { Services } from "./components/Services";
 import { ProjectList } from "./components/Project";
 import { Contacts } from "./components/Contacts";
 import { Footer } from "./components/Footer";
-
+import { ScrollToTopButton } from './components/ScrollToTopButton'
 import "./index.css";
 
 export default function App() {
 
   return (
     <div className="App">
+      <ScrollToTopButton />
       <Header />
       <HeroArea />
       <h1 id="about" className="title">
