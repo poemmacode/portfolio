@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
   max-width: 800px;
   margin: 0 auto;
@@ -10,6 +10,13 @@
   background-color: white;
   padding: 10px;
   border-radius: 10px;
+}
+.playerIcon{
+  background-color: #140772 !important;
+  padding: 15px;
+  border-radius: 50%;
+  width:150px;
+  height: 150px;
 }
 
 .icon {

@@ -16,7 +16,7 @@ export default function App() {
     <div className="App">
        <Player
         src='https://lottie.host/a0e48f1d-17b9-4157-94eb-cd7aeec75971/7hIoQIlJlX.json'
-        className="player"
+        className="player-bg"
         loop
         autoplay
       />

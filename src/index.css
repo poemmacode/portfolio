@@ -7,8 +7,7 @@
   text-decoration: none;
   font-family: "Varela Round", sans-serif;
 }
-.lf-player-container{
-  height: 100vh;
+.lf-player-container .player-bg{
   position: fixed;
   object-fit: cover;
   left: 0;
