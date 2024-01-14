@@ -1,0 +1,44 @@
+
+.button {
+  width: 100%;
+  min-height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.btnGradPrimary {
+  background-image: linear-gradient(to right, #DA22FF 0%, #5f27cd  51%, #DA22FF  100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  display: block;
+}
+
+.btnGradPrimary:hover {
+background-position: right center;
+color: #fff;
+text-decoration: none;
+}
+
+.btnGradSecondary {
+  background-image: linear-gradient(to right, #e885fb 0%, #f368e0  51%, #d000ff  100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  display: block;
+}
+
+.btnGradSecondary:hover {
+background-position: right center;
+color: #fff;
+text-decoration: none;
+}

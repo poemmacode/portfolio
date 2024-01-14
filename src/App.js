@@ -23,29 +23,30 @@ export default function App() {
       <ScrollToTopButton />
       <Header />
       <HeroArea />
-      <h1 id="about" className="title">
+      <h2 id="projects" className="title">
+        My Experience
+      </h2>
+      <p className="description">Steps in My Professional Path</p>
+      <ProjectList />
+      <h2 id="about" className="title">
         About me
-      </h1>
-      <p className="description">My experience and education</p>
+      </h2>
+      <p className="description">Where I have worked and my education.</p>
       <About />
-      <h1 id="services" className="title">
+      <h2 id="services" className="title">
         My services
-      </h1>
+      </h2>
       <p className="description">How can I help you</p>
       <Services />
-      <h1 id="projects" className="title">
-        Projects
-      </h1>
-      <p className="description">Highlights of my best work</p>
-      <ProjectList />
-      <h1 id="resume" className="title">
+      
+      <h2 id="resume" className="title">
         My resume
-      </h1>
+      </h2>
       <p className="description">You can find my full resume <a className="link" href="https://resume.io/r/y92352s0L" target="_blank" rel="noreferrer"><strong><u>here</u></strong></a></p>
 
-      <h1 id="contact" className="title">
+      <h2 id="contact" className="title">
         Inspire Innovation: Let's Connect!
-      </h1>
+      </h2>
       <p className="description">I'm Here to Help.  Together, we can bring your vision to life!</p>
       <Contacts />
       <Footer />

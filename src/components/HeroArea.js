@@ -1,4 +1,5 @@
 import styles from "./HeroArea.module.css";
+import { Button } from "./Button";
 
 export const HeroArea = () => {
   return (
@@ -6,34 +7,16 @@ export const HeroArea = () => {
       <div className={styles.container}>
         <img
           className={styles.profile}
-          src="/assets/profile.png"
+          src="/assets/joseestradamadera.jpeg"
           alt="profile"
         />
         <h1 className="title">Hi, I'm Jose Estrada</h1>
         <p className="description">
-          A Ruby Dev always looking for a new challenge, a new adventure
+          A Software Engineer always looking for new challenges and new adventures
         </p>
         <div className={styles.buttonBox}>
-          <button
-            className={`${styles.button} ${styles.project}`}
-            onClick={() => {
-              document
-                .getElementById("projects")
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            My projects
-          </button>
-          <button
-            className={`${styles.button} ${styles.hire}`}
-            onClick={() => {
-              document
-                .getElementById("contact")
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            Get in touch
-          </button>
+          <Button id="projects" label="Proyects" />
+          <Button id="contact" label="Get in touch" secondary/>
         </div>
       </div>
     </section>

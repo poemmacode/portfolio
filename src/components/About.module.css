@@ -1,28 +1,42 @@
 .wrapper {
   display: grid;
-  gap: 30px;
+  gap: 10px;
   max-width: 800px;
   margin: 0 auto;
+  grid-template-columns: 1fr;
+  align-self: center;
+  align-items: center;
 }
 
 .card {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 4fr 1fr;
   border-radius: 10px;
   background-color: white;
+  margin: 5px 0;
 }
-
-.info {
-  padding: 10px 35px;
+.reverse{
+  order: -1;
+}
+.aboutRow{
   display: grid;
-  place-items: self-end;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+.playerIcon{
+  width: 200px;
+}
+.info {
+  padding: 10px;
+  display: grid;
+  place-items: center;
 }
 
 .icon {
-  height: 100px;
-  height: 100px;
+  height: 50px;
+  height: 50px;
   background: #191863;
-  padding: 17px;
+  padding: 10px;
   border-radius: 50%;
 }
 
