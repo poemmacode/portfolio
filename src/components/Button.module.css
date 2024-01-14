@@ -7,6 +7,7 @@
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
+  margin: 10px auto;
 }
 
 .btnGradPrimary {
@@ -16,7 +17,6 @@
   transition: 0.5s;
   background-size: 200% auto;
   color: white;            
-  box-shadow: 0 0 20px #eee;
   display: block;
 }
 
@@ -32,8 +32,7 @@ text-decoration: none;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
-  box-shadow: 0 0 20px #eee;
+  color: white;
   display: block;
 }
 
