@@ -60,8 +60,10 @@
   }
 
   .navigation {
-    display: grid;
-    gap: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     position: absolute;
     top: 0;
     left: 0;

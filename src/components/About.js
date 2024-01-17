@@ -7,7 +7,7 @@ export const About = () => {
     <section className={styles.wrapper}>
       <div className={styles.aboutRow}>
         <h2>Professional Experience</h2>
-        <span>
+        <span className={styles.reverse}>
           <Player
             className={styles.playerIcon}
             autoplay

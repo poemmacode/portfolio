@@ -47,8 +47,8 @@ export const Experience = () => {
         return (
           <div className={styles.card} key={index}>
             <div className={styles.info}>
-              <h1 className={styles.title}>{item.role}</h1>
-              <h3 className={styles.subtitle}>{item.company}</h3>
+              <span className={styles.title}>{item.role}</span>
+              <span className={styles.subtitle}>{item.company}</span>
               <p className={styles.description}>{item.endDate}</p>
             </div>
             <div className={styles.info}>
