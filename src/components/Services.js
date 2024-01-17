@@ -34,9 +34,6 @@ useEffect(() => {
       if (errors) {
         console.error(errors);
       }
-
-      // rerender the entire component with new data
-      console.log(data)
       setServices(data.serviceCollection.items);
 
     });

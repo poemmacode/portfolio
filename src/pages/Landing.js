@@ -7,55 +7,10 @@ import { Services } from "../components/Services";
 import { ProjectList } from "../components/Project";
 import { Contacts } from "../components/Contacts";
 import { ScrollToTopButton } from '../components/ScrollToTopButton'
-import { Helmet } from "react-helmet-async";
 import { Footer } from '../components/Footer';
 export const Landing = () =>{
   return (
     <div className="App">
-      <Helmet>
-        <title>Jose Estrada - Software Engineer - Porfolio</title>
-        <meta
-          name="title"
-          content="Jose Estrada - Software Engineer - Porfolio"
-        />
-        <meta
-          name="description"
-          content="A Mexican Software Engineer with Ruby on Rails Experience. Together, we can bring your vision to life!"
-        />
-
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.joseestrada.engineer/" />
-        <meta
-          property="og:title"
-          content="Jose Estrada - Software Engineer - Porfolio"
-        />
-        <meta
-          property="og:description"
-          content="A Mexican Software Engineer with Ruby on Rails Experience. Together, we can bring your vision to life!"
-        />
-        <meta
-          property="og:image"
-          content="https://www.joseestrada.engineer/assets/joseestradamadera.jpeg"
-        />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://www.joseestrada.engineer/"
-        />
-        <meta
-          property="twitter:title"
-          content="Jose Estrada - Software Engineer - Porfolio"
-        />
-        <meta
-          property="twitter:description"
-          content="A Mexican Software Engineer with Ruby on Rails Experience. Together, we can bring your vision to life!"
-        />
-        <meta
-          property="twitter:image"
-          content="https://www.joseestrada.engineer/assets/joseestradamadera.jpeg"
-        />
-      </Helmet>
       <Player
         src="https://lottie.host/a0e48f1d-17b9-4157-94eb-cd7aeec75971/7hIoQIlJlX.json"
         className="player-bg"
