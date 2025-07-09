@@ -7,10 +7,10 @@ export const HeroArea = () => {
       <div className={styles.container}>
         <img
           className={styles.profile}
-          src="/assets/joseestradamadera.jpeg"
+          src="/assets/emmaestradamadera.JPG"
           alt="profile"
         />
-        <h1 className="title">Hi, I'm Jose Estrada</h1>
+        <h1 className="title">Hi, I'm Emma Estrada</h1>
         <p className="description">
           A Software Engineer always looking for new challenges and new adventures
         </p>
