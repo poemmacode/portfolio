@@ -29,7 +29,7 @@ export const Contacts = () => {
           className={styles.textarea}
           type="text"
           name="message"
-          placeholder="Your message here"
+          placeholder="Your message heree"
           required
         />
         <button className={styles.send} type="submit">
