@@ -7,7 +7,7 @@ export const HeroArea = () => {
       <div className={styles.container}>
         <img
           className={styles.profile}
-          src="/assets/emmaestradamadera.JPG"
+          src="/assets/emmaestradamadera.jpg"
           alt="profile"
         />
         <h1 className="title">Hi, I'm Emma Estrada</h1>
