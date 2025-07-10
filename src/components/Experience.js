@@ -43,7 +43,11 @@ export const Experience = () => {
 
   return (
     <>
-      {experiences.map((item, index) => {
+      {experiences
+        .sort((a, b) => {
+          return new Date(b.endDate) - new Date(a.endDate);
+        })
+        .map((item, index) => {
         return (
           <div className={styles.card} key={index}>
             <div className={styles.info}>
