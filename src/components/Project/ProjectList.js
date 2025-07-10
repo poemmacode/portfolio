@@ -9,6 +9,7 @@ const ProjectList = () => {
     const query = `{
       projectCollection{
         items{
+          order
           title
           link
           description {
@@ -48,7 +49,13 @@ const ProjectList = () => {
 
  return (
   <section className={styles.wrapper}>
-      {projects.length === 0 ? <>Cargando...</> : (projects.map((project,index) => <ProjectItem key={index} project={project}/>))}
+      {projects.length === 0 ? (
+        <>Cargando...</>
+      ) : (
+        projects
+          .sort((a, b) => a.order - b.order) // Ordenar por el atributo 'order' en forma ascendente
+          .map((project, index) => <ProjectItem key={index} project={project} />)
+      )}
   </section>
   )
 };
